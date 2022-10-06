@@ -24,7 +24,7 @@ const Home = () => {
                 <th>{index + 1}</th>
                 <td>{compani.name}</td>
                 <td>{compani.email}</td>
-                <td><span className='flex justify-items-center'>{compani.status}<FaCircle className='text-green-700 text-xs'></FaCircle></span></td>
+                <td><span className='flex items-center'>{compani.status}<FaCircle className='text-green-700 text-xs ml-3'></FaCircle></span></td>
 
               </tr>)
             }
